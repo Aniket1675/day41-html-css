@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        body {
+
+            /* The image used */
+            background-image: url("../assets/images3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+
+
+        }
+
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: rgba(0, 43, 16, 0.89);
+            font-weight: bold;
+            color: #F6F3EB;
+        }
+
+        .media {
+            display: flex;
+            align-items: flex-start;
+            align-content: center;
+            /*background: #ffe49a;*/
+            padding: 1em;
+            border-radius: 3px;
+            max-width: 60em;
+        }
+
+        .mediaObject {
+            margin-right: 1em;
+            width: 180px;
+        }
+
+        .mediaBody {
+            flex: 1;
+        }
+
+        .heading {
+            margin: 0 0 15px;
+        }
+
+        .para {
+            font-size: 25px;
+            margin: 0 0 15px;
+            width: 100%;
+            height: 220px;
+
+
+        }
+
+        img {
+
+            width: 200px;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headerContainer">
+        <h1>Welcome To Flexbox Media Object</h1>
+    </header>
+
+    <br>
+
+    <div class="media">
+        <img class="mediaObject" src="../assets/image1.jpeg" alt="Sample photo">
+        <div class="mediaBody">
+            <h2 class="heading">Raja Shivchhatrapati</h2>
+            <p class="para">This is the most popular well read and best selling book on Chattrapati Shivaji Maharaj
+                written by Babasaheb Purandare. The book is an excellent narration of the historic details before birth
+                of Shivaji Maharaj, his swarajya fight, till his death.</p>
+
+            <div class="media">
+                <img class="mediaObject" src="../assets/image2.jpeg" alt="Sample photo">
+                <div class="mediaBody">
+                    <h2 class="heading">Sampurn Chanakya Niti</h2>
+                    <p class="para">Sampurna Chanakya Neeti (HINDI) by Vishwamitra Sharma- If, you are looking for an
+                        economical and good option is Hindi, then I will recommend this book for you. It is a nice book
+                        with a decent explanation of Chanakya salacious. This book provides good learning of human
+                        behavior and Chanakya Niti.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="media">
+        <img class="mediaObject" src="../assets/image3.jpeg" alt="Sample photo">
+        <div class="mediaBody">
+            <h2 class="heading">Vivekanand Ki Atmakatha</h2>
+            <p class="para">Vivekananda, original name Narendranath Datta, Datta also spelled Dutt, (born January 12,
+                1863, Calcutta [now Kolkata]—died July 4, 1902, near Calcutta), Hindu spiritual leader and reformer in
+                India who attempted to combine Indian spirituality with Western material progress, maintaining that the
+                two supplemented and complemented one another. His Absolute was a person’s own higher self; to labour
+                for the benefit of humanity was the noblest endeavour.</p>
+
+            <div class="media">
+                <img class="mediaObject" src="../assets/image4.jpeg" alt="Sample photo">
+                <div class="mediaBody">
+                    <h2 class="heading">Chhava</h2>
+                    <p class="para">Chava is a Marathi historical work which tells the story of Sambhaji Bhosale, the
+                        eldest son of Chhatrapati Shivaji. Born to Shivaji and his first wife Saibai, Sambhaji was
+                        entrusted with carrying on the Maratha empire which Shivaji began. Born at Purandar fort,he was
+                        raised by his paternal grandmother Jijabai.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
