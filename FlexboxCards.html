@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("../assets/images3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: rgba(253, 170, 115, 0.89);
+            font-weight: bold;
+        }
+
+        .cardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            width: 100%;
+        }
+
+        .cards {
+            width: 200px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        img {
+            
+            width: 200px;
+            height: 250px;
+        }
+
+        .text {
+            padding: 0 20px 20px;
+        }
+
+        button {
+            background: gray;
+            border: 0;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .card:nth-child(1) {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headerContainer">
+        <h1>Welcome To Flexbox Cards</h1>
+    </header>
+    <div class="cardContainer">
+        <article class="cards">
+            <img src="../assets/image1.jpeg" alt="No ">
+            <div class="text">
+                <h3>Raja Shivchhatrapati</h3>
+                <p>Raja Shivchhatrapati Babasaheb Purandare Part 1&2 (Marathi) by Babasaheb Purandare Hardcover</p>
+                <button>Read More</button>
+            </div>
+        </article>
+        <article class="cards">
+            <img src="../assets/image2.jpeg" alt="No ">
+            <div class="text">
+                <h3>Sampurn Chanakya Niti</h3>
+                <p>Sampurn Chanakya Niti (Paperback, MARATHI, Pushpa Thakkar)</p>
+                <button>Read More</button>
+            </div>
+        </article>
+        <article class="cards">
+            <img src="../assets/image3.jpeg" alt="No ">
+            <div class="text">
+                <h3>Vivekanand Ki Atmakatha</h3>
+                <p>An Autobiography of Vivekananda | The Life of Swami Vivekananda (Hindi Edition) Hardcover – 7 January 2020</p>
+                <button>Read More</button>
+            </div>
+        </article>
+        <article class="cards">
+            <img src="../assets/image4.jpeg" alt="No ">
+            <div class="text">
+                <h3>Chhava</h3>
+                <p>Chhava by Shivaji Sawant</p>
+                <button>Read More</button>
+            </div>
+        </article>
+        <article class="cards">
+            <img src="../assets/image5.jpeg" alt="No ">
+            <div class="text">
+                <h3>Mrutyunjay</h3>
+                <p>Mrutyunjay (Marathi , Paperback, Shivaji Sawant)</p>
+                <button>Read More</button>
+            </div>
+        </article>
+        <article class="cards">
+            <img src="../assets/image6.jpeg" alt="No ">
+            <div class="text">
+                <h3>Mahabharata</h3>
+                <p>Indian Epic (Illustrated Mahabharata for Children)</p>
+                <button>Read More</button>
+            </div>
+        </article>
+    </div>
+</body>
+
+</html>
